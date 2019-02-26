@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mi_primer_contenedor:
+    image: ${DOCKER_REGISTRY}miprimercontenedor
+    build:
+      context: .
+      dockerfile: mi_primer_contenedor\Dockerfile
