@@ -5,4 +5,4 @@ services:
     image: ${DOCKER_REGISTRY}miprimercontenedor
     build:
       context: .
-      dockerfile: mi_primer_contenedor\Dockerfile
+      dockerfile: Dockerfile
